@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=8081' && react-native start "
+    "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=8081' && react-native start ",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/"
   },
   "dependencies": {
     "axios": "^0.18.0",

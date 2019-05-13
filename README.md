@@ -35,6 +35,8 @@
 
 ## Android
 
+    npm run bundle-android    # 打包js
+
     cd android && ./gradlew clean && ./gradlew assembleRelease   # 在android/app/build/outputs/apk 生成app-release.apk
 
 
