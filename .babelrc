@@ -1,10 +1,12 @@
 {
-    "presets": ["module:metro-react-native-babel-preset"],
     "env": {
+        "development": {
+            "presets": ["module:metro-react-native-babel-preset"]
+        },
         "production": {
-            "plugins": [
-                "transform-remove-console"
-            ]
+            "presets": ["module:metro-react-native-babel-preset"],
+            "plugins": ["transform-remove-console"]
         }
     }
 }
+  
