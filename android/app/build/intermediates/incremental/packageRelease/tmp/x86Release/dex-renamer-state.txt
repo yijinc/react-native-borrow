@@ -1,0 +1,4 @@
+#Tue Dec 18 14:15:17 CST 2018
+base.0=/Users/yijinc/workspace/seasia/payday-loan-rn/android/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

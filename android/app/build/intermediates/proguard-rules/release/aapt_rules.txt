@@ -1,0 +1,106 @@
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_popup_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout-v26/abc_screen_toolbar.xml:27
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout-v26/abc_screen_toolbar.xml:44
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_action_mode_bar.xml:19
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_toolbar.xml:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout-v26/abc_screen_toolbar.xml:17
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml:18
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout-watch-v20/abc_alert_dialog_title_material.xml:44
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_dialog_title_material.xml:22
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_simple.xml:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout-v26/abc_screen_toolbar.xml:37
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_simple.xml:25
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout-watch-v20/abc_alert_dialog_title_material.xml:53
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_alert_dialog_button_bar_material.xml:43
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_alert_dialog_material.xml:66
+# Referenced at /Users/yijinc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f634137bb039e4ba31f5b307e88129bd/res/layout/abc_alert_dialog_title_material.xml:56
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/node_modules/react-native-picker/android/build/intermediates/packaged_res/release/layout/picker_view_linkage.xml:6
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/node_modules/react-native-picker/android/build/intermediates/packaged_res/release/layout/picker_view_linkage.xml:12
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/node_modules/react-native-picker/android/build/intermediates/packaged_res/release/layout/picker_view_linkage.xml:18
+-keep class com.beefe.picker.view.LoopView { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/node_modules/react-native-picker/android/build/intermediates/packaged_res/release/layout/picker_view.xml:50
+-keep class com.beefe.picker.view.PickerViewAlone { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/node_modules/react-native-picker/android/build/intermediates/packaged_res/release/layout/picker_view.xml:45
+-keep class com.beefe.picker.view.PickerViewLinkage { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/android/app/build/intermediates/manifests/full/release/x86/AndroidManifest.xml:49
+-keep class com.facebook.react.devsupport.DevSettingsActivity { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/android/app/build/intermediates/manifests/full/release/x86/AndroidManifest.xml:84
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/android/app/build/intermediates/manifests/full/release/x86/AndroidManifest.xml:74
+-keep class com.imagepicker.FileProvider { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/android/app/build/intermediates/manifests/full/release/x86/AndroidManifest.xml:65
+-keep class com.learnium.RNDeviceInfo.RNDeviceReceiver { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/android/app/build/intermediates/manifests/full/release/x86/AndroidManifest.xml:38
+-keep class com.paydayloan.MainActivity { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/android/app/build/intermediates/manifests/full/release/x86/AndroidManifest.xml:32
+-keep class com.paydayloan.MainApplication { <init>(...); }
+
+# Referenced at /Users/yijinc/workspace/seasia/payday-loan-rn/android/app/build/intermediates/manifests/full/release/x86/AndroidManifest.xml:55
+-keep class com.reactnativecommunity.webview.RNCWebViewFileProvider { <init>(...); }
+
