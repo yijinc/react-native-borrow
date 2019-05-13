@@ -1,4 +1,5 @@
-import { takeLatest,call, put } from 'redux-saga/effects';
+import { call, put, take, fork, cancel, cancelled, takeLatest } from 'redux-saga/effects';
+import { delay } from 'redux-saga';
 import { REQUEST_CURRENT_LOAN, REQUEST_HISTORY_LOANS } from '../constants';
 import * as Api from '../../api/orderApi';
 import * as Action from '../actions/loan';
