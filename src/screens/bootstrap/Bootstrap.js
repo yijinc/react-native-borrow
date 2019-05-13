@@ -86,33 +86,37 @@ class BootStrap extends React.Component {
                 if (global.appStartTime >= token.accessTokenExpiredTime) {
                     const newToken = await refreshToken();
                     if (newToken === null) {
-                        this.props.navigation.navigate('Account');
+                        // 未登录
+                        // this.props.navigation.navigate('Account');
                     }
+                } else {
+                    // token 未过期 请求用户数据
+                    fetchSystemOptions();
+                    this.props.dispatch(requestUserInfo());
+                    this.props.dispatch(requestCurrentLoan());
                 }
-                fetchSystemOptions();
-                this.props.dispatch(requestUserInfo());
-                this.props.dispatch(requestCurrentLoan());
-            } else {
-                this.props.navigation.navigate('Account');
+                
             }
-           } catch (error) {
+        } catch (error) {
             console.log('AsyncStorage.getItem - token', error);
         }
+
+        this.props.navigation.navigate('Home');
         
     };
 
-    componentWillReceiveProps(nextProps) {
-        /**
-         * 首页ui 是根据 currentLoan展示的，userInfo 可以忽略
-        */
-        if(this.props.currentLoan.isFetching===true && nextProps.currentLoan.isFetching===false) {
-            /**
-             * 未授权 axios会拦截401 跳转到登录页面，
-             * 这里只需要判断获取到 currentLoan 获取完成跳转到 Home
-            */
-            this.props.navigation.navigate('Home');
-        }
-    }
+    // componentWillReceiveProps(nextProps) {
+    //     /**
+    //      * 首页ui 是根据 currentLoan展示的，userInfo 可以忽略
+    //     */
+    //     if(this.props.currentLoan.isFetching===true && nextProps.currentLoan.isFetching===false) {
+    //         /**
+    //          * 未授权 axios会拦截401 跳转到登录页面，
+    //          * 这里只需要判断获取到 currentLoan 获取完成跳转到 Home
+    //         */
+    //         this.props.navigation.navigate('Home');
+    //     }
+    // }
 
     shouldComponentUpdate(nextProps, nextState) {
         return false
